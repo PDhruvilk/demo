@@ -4,7 +4,7 @@ public class pyramid {
         Scanner sc = new Scanner(System.in);
         int n = sc.nextInt();
         
-         for (int r = 7; r <= n-1; r++) {
+         for (int r = 1; r <= n-1; r++) {
              for (int s = 1; s <=(n-r); s++) {
                  System.out.print("  ");
              }
